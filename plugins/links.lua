@@ -20,7 +20,7 @@ local action = function(msg, blocks)
 		api.sendReply(msg, text, true)
 	end
 	
-	if blocks[1] == 'setlink' then
+	if blocks[1] == 'تنظیم لینک' then
 		
 		local link
 		if msg.chat.username then
